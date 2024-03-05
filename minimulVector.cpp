@@ -13,7 +13,7 @@ int main()
         cin >> V[i];
     }
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n - 1; i++)
     {
         min = V[i];
         if (V[i + 1] < min)
